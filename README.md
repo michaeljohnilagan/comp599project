@@ -1,7 +1,9 @@
 # Learning from both helpers and trolls: Latent class analysis for the single-turn conversational safety task
 
-Michael John Ilagan and Michelle Yang
+Michael John Ilagan and Michelle Yang  
 2022 December 12
+
+This repository is in partial fulfillment of the requirements for COMP 599 at McGill University, Fall 2022.
 
 ## Abstract
 
