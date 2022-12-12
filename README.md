@@ -12,13 +12,12 @@ To discriminate between safe and unsafe utterances, the chatbot can learn from l
 Unfortunately, some users may be trolls, providing examples with incorrect labels. 
 Toward chatbots learning amid trolls, a recent approach was to use cross-validation to remove untrustworthy users and examples prior to training. 
 However, in the event of a coordinated troll attack, cross-validation may be overwhelmed, if trolls are majority of the users or are as consistent as helpers.
-In the present project, we endeavor to clean troll-contaminated training while avoiding this drawback. 
+In the present project, we endeavor to algorithmically re-annotate training examples while avoiding this threat. 
 We thus propose a two-part solution adapted from automated essay scoring. 
 First, collect labels from multiple users per utterance. 
-Second, infer correct labels via latent class analysis, a statistical technique often used in the social sciences.
+Second, infer correct labels via latent class analysis, a statistical technique often used in psychology and education.
 Such a solution not only avoids removing examples but also leverages consistent behavior from trolls.
 In a simulation study with synthetic users and single-turn utterances, we found that our solution is robust, retaining discriminability even when trolls are a majority and are as consistent as helpers. 
-We hope that our solution contributes to making safer chatbots.
 
 ## Data
 
